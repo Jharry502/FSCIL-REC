@@ -1,5 +1,7 @@
 # Multi-Proxy Quality-Aware Learning and Classifier Calibration for Few-Shot Incremental Fine-Grained Remote Sensing Classification
 
+📄 **[IEEE TMM Paper](https://ieeexplore.ieee.org/abstract/document/11466468)**
+
 🚧 **This repository is under construction. Code will be released soon.**
 
 This repository will contain the official implementation of our paper:
@@ -33,7 +35,7 @@ To address these issues, we propose a novel framework with:
 
 ## 📊 Status
 
-* [x] Paper accepted (TMM 2026)
+* [x] Paper published (TMM 2026)
 * [ ] Code cleaning
 * [ ] Training scripts
 * [ ] Pretrained models
@@ -42,8 +44,7 @@ To address these issues, we propose a novel framework with:
 
 ## 📄 Paper
 
-* arXiv: (to be updated)
-* IEEE: (to be updated)
+* IEEE: https://ieeexplore.ieee.org/abstract/document/11466468
 
 ---
 
@@ -56,6 +57,25 @@ To address these issues, we propose a novel framework with:
 
 ---
 
+## 🧪 Planned Usage
+
+### Training
+
+```bash
+bash tools/train.sh configs/mpqcl_base.py
+```
+
+### Incremental Fine-tuning
+
+```bash
+bash tools/train.sh configs/mpqcl_incremental.py
+```
+
+### Evaluation
+
+```bash
+bash tools/test.sh configs/mpqcl_incremental.py checkpoint.pth
+```
 
 ---
 
@@ -74,4 +94,4 @@ To address these issues, we propose a novel framework with:
 
 ## 📬 Contact
 
-If you have any questions, feel free to open an issue or contact the authors.
+If you have any questions, feel free to open an issue or contact the authors (jianghaoran@shu.edu.cn).
