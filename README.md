@@ -1,4 +1,4 @@
-# Multi-Proxy Quality-Aware Learning and Classifier Calibration for Few-Shot Incremental Fine-Grained Remote Sensing Classification
+# Multi-Proxy Quality-Aware Learning and Classifier Calibration for Few-Shot Incremental Fine-Grained Remote Sensing Classification.  TMM2026.
 
 📄 **[IEEE TMM Paper](https://ieeexplore.ieee.org/abstract/document/11466468)**
 
