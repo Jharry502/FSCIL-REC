@@ -82,11 +82,12 @@ bash tools/test.sh configs/mpqcl_incremental.py checkpoint.pth
 ## 📖 Citation
 
 ```bibtex
-@article{yourname2026mpqcl,
+@article{jiang2026multi,
   title={Multi-Proxy Quality-Aware Learning and Classifier Calibration for Few-Shot Incremental Fine-Grained Remote Sensing Classification},
-  author={Your Name et al.},
+  author={Jiang, Haoran and Zhang, Junjie and Xu, Wenbo and Zeng, Dan and Zhang, Jian},
   journal={IEEE Transactions on Multimedia},
-  year={2026}
+  year={2026},
+  publisher={IEEE}
 }
 ```
 
